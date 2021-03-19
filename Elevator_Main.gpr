@@ -1,0 +1,17 @@
+Project Elevator_Main is
+	for Source_Dirs use (".", "./Elevator_System");
+	
+	package Linker is
+      for Default_Switches ("ada") use ("-g");
+	end Linker;
+
+   package Builder is
+      for Default_Switches ("ada") use ("-g");
+   end Builder;
+
+   package Compiler is
+      for Default_Switches ("ada") use ("-g");
+   end Compiler;
+
+   for Main use ("Main_One_Elevator.adb", "Main_Two_Elevator.adb");
+end Elevator_Main;

@@ -1,0 +1,6 @@
+Project Elevator_Tests is
+	for Source_Dirs use (".", "../Elevator_System");
+
+   for Main use ("One_Elevator_Test_1.adb", "One_Elevator_Test_2.adb", "One_Elevator_Test_3.adb", "One_Elevator_Test_4.adb",
+   "Two_Elevator_Test_1.adb", "Two_Elevator_Test_2.adb", "Two_Elevator_Test_3.adb", "Two_Elevator_Test_4.adb");
+end Elevator_Tests;
